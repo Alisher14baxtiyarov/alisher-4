@@ -1,0 +1,253 @@
+@media only screen and (max-width:768px) {
+    .container{
+        max-width: 100%;
+        margin: 0 auto;
+     }
+    
+.nav__logo a{
+    display: none;
+}
+
+.banner{
+    width: 100%;
+    padding:4.8rem;
+    background-image: url(/img/banner.jpeg);
+    background-color: aqua;
+    height: 100vh;
+    padding-bottom: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: .2rem;
+}
+
+.title p{
+    width: 80%;
+    font-size: 1rem;
+    margin-left:10%;
+    text-align: center;
+  }
+  .blog__content{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 3rem;
+    margin-top: 2rem;
+  }
+  .freefire__content{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 3rem;
+}
+.f__p{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.contact .input input{
+    width: 64%;
+    height: 50px;
+    margin-left: 20%;
+    margin-top: 3rem;
+    border: 0;
+    outline: 0;
+    font-family: var(--lato);
+    font-size: 1.5rem;
+    color: blue;
+}
+.contact .input button{
+    margin-left: 35%;
+    margin-top:2rem;
+    border: 0;
+    outline: 0;
+    font-size: 1.5rem;
+    width: 25%;
+    height: 40px;
+    border-radius:20px ;
+    transition: 0.8s;
+}
+}
+@media only screen and (max-width:468px){
+    .container{
+        max-width: 100%;
+        margin: 0 auto;
+     }
+    
+.nav__logo a{
+    display: none;
+}
+
+.banner{
+    width: auto;
+    padding:4.8rem;
+    background-image: url(/img/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: aqua;
+    height: auto;
+    padding-bottom: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: .2rem;
+}
+
+.contact_us input{
+    width: 160px;
+    height: 50px;
+    font-size: 27px;
+    padding: 10px 0px;
+    border: 0;
+    border-radius: 4px;
+    background-color:yellow;
+    color: black;
+    margin-left: 24%;
+    margin-top: 190px;
+    }
+    
+.ff h2{
+    width: 100%;
+    font-size: 66px;
+    letter-spacing: 15px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1.2rem;
+}
+.ff p{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    margin: 0 auto;
+    margin-bottom: 1.2rem;
+}
+.title p{
+    width: 100%;
+    font-size: 1rem;
+    margin-left:0%;
+    text-align: center;
+  }
+  .blog__content{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 3rem;
+    margin-top: 2rem;
+  }
+  .freefire__content{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 3rem;
+}
+.f__p{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.contact .input input{
+    width: 98%;
+    height: 50px;
+    margin-left:0%;
+    margin-top: 3rem;
+    border: 0;
+    outline: 0;
+    font-family: var(--lato);
+    font-size: 1.5rem;
+    color: blue;
+}
+.contact .input button{
+    margin-left: 20%;
+    margin-top:2rem;
+    border: 0;
+    outline: 0;
+    font-size: 1.5rem;
+    width: 55%;
+    height: 40px;
+    border-radius:20px ;
+    transition: 0.8s;
+}
+}
+@media only screen and (max-width:368px){
+    .container{
+        max-width: 100%;
+        margin: 0 auto;
+     }
+    
+.nav__logo a{
+    display: none;
+}
+
+.banner{
+    width: auto;
+    padding:4.8rem;
+    background-image: url(/img/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: aqua;
+    height: auto;
+    padding-bottom: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: .2rem;
+}
+
+.contact_us input{
+    width: 160px;
+    height: 50px;
+    font-size: 27px;
+    padding: 10px 0px;
+    border: 0;
+    border-radius: 4px;
+    background-color:yellow;
+    color: black;
+    margin-left: 24%;
+    margin-top: 190px;
+    }
+.title p{
+    width: 100%;
+    font-size: 1rem;
+    margin-left:0%;
+    text-align: center;
+  }
+  .blog__content{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 3rem;
+    margin-top: 2rem;
+  }
+  .freefire__content{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 3rem;
+}
+.f__p{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.contact .input input{
+    width: 98%;
+    height: 50px;
+    margin-left:0%;
+    margin-top: 3rem;
+    border: 0;
+    outline: 0;
+    font-family: var(--lato);
+    font-size: 1.5rem;
+    color: blue;
+}
+.contact .input button{
+    margin-left: 20%;
+    margin-top:2rem;
+    border: 0;
+    outline: 0;
+    font-size: 1.5rem;
+    width: 55%;
+    height: 40px;
+    border-radius:20px ;
+    transition: 0.8s;
+}
+}
